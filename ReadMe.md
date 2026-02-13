@@ -17,3 +17,11 @@ character is different, you record the count and reset the counter for the new c
 3. Find common elements from 3 lists : FCEF3List
       Using retainAll() (Most common) This method modifies the first list to keep only the elements present in the provided collections.
     To avoid losing your original data, create a temporary copy
+4. Find middle of a list without knowing its size : FMLWKS
+   The Logic
+   Two Pointers: You start two pointers at the head of the list.
+   The Race:
+   The Fast Pointer moves two steps at a time.
+   The Slow Pointer moves one step at a time.
+   The Result: Since the fast pointer moves exactly twice as fast as the slow pointer, by the time the fast pointer reaches the end of the list, the slow pointer will be exactly at the middle.
+   
